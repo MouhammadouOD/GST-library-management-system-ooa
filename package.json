@@ -1,0 +1,8 @@
+{
+  "name": "gst-library-management-system-ooa",
+  "version": "1.0.0",
+  "description": "GoMyCode checkpoint - LMS Object-Oriented Analysis & Architectural Modeling",
+  "main": "book.test.js",
+  "scripts": { "test": "node book.test.js" },
+  "license": "MIT"
+}
