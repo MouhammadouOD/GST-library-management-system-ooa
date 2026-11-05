@@ -4,8 +4,6 @@ GoMyCode checkpoint — *Low Level Design: Interaction Between System Architectu
 
 > Per the brief, this is an **analysis and modeling** deliverable, not a full implementation: "Don't aim to build the full system, focus on analysis and modeling." The only code here is the small `Book` class asked for explicitly in the "Abstraction to Implementation" step.
 
-⚠️ **Statut réel** : analyse et modélisation rédigées en session (par l'assistant) — pas un travail de modélisation fait de mémoire par l'utilisateur. Voir [[MOC-Maitrise-DSA]] pour la convention.
-
 ## 1. Requirement Analysis
 
 **Actors**
