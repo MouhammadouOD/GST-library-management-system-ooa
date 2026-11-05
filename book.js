@@ -1,6 +1,6 @@
 /**
  * Abstraction-to-implementation sketch for the Book state diagram:
- * Available -> Issued -> Returned -> Available.
+ * Available -> Issued -> Available (2 states, see README.md).
  */
 class Book {
   constructor(isbn, title, author) {

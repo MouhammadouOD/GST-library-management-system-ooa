@@ -143,9 +143,15 @@ sequenceDiagram
 stateDiagram-v2
     [*] --> Available
     Available --> Issued: issueBook()
-    Issued --> Returned: returnBook()
-    Returned --> Available: back in catalog
+    Issued --> Available: returnBook()
 ```
+
+Corrected 2026-11-05: an earlier version of this diagram had a 3rd state
+("Returned", transitioning back to Available) that `book.js`'s actual
+`markIssued()`/`markReturned()` implementation never had — `markReturned()`
+transitions straight from `Issued` back to `Available`, with no separate
+"Returned" state ever set. The diagram now matches the 2-state model the
+code (and `book.test.js`) actually implements.
 
 ## 4. Data, Functional, and Behavioral Modeling
 
